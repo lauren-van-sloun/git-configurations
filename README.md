@@ -38,5 +38,8 @@ Holds my favorite git configurations so I can more quickly set up a new environm
 - `git config --global user.name 'Lauren Rutledge'`
 - `git config --global user.email email@address.com`
 
+## Set default text editor to Notepad++
+- `git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"`
+
 ## Generate a new SSH key to authenticate to GitHub
 - https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key
