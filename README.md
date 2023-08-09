@@ -1,6 +1,9 @@
 # git-configurations
 Holds my favorite git configurations so I can more quickly set up a new environment
 
+## Set default text editor to Notepad++
+- `git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"`
+
 ## Set aliases
 
 - To create/modify a single alias, use the command
@@ -10,36 +13,33 @@ Holds my favorite git configurations so I can more quickly set up a new environm
   
   ```
   [alias]
-	  last = log -1 HEAD
-	  co = checkout
-	  cob = checkout -b
-	  s = status
-	  cm = commit -m
-	  alias = config --get-regexp ^alias\\.
-	  a = add
+  	  a = add
 	  aa = add .
+  	  alias = config --get-regexp ^alias\\.
 	  b = branch
+  	  bd = branch -D
 	  c = commit
+  	  cm = commit -m
+  	  co = checkout
+  	  cob = checkout -b
+  	  cod = checkout develop
 	  com = checkout main
-	  cod = checkout develop
-	  bd = branch -D
-	  pom = pull origin main
-	  mm = merge main
+  	  last = log -1 HEAD
+  	  md = merge develop
+  	  mm = merge main
+  	  outta-here = reset --hard
+  	  pod = pull origin develop
+    	  pom = pull origin main
+  	  remote-commits = rev-list --all --remotes --pretty
+	  s = status
+  	  sa = stash apply
 	  sl = stash list
-	  sa = stash apply
 	  sp = stash pop
-	  remote-commits = rev-list --all --remotes --pretty
-	  md = merge develop
-	  pod = pull origin develop
-	  outta-here = reset --hard
   ```
 
 ## Set name and email
 - `git config --global user.name 'Lauren Rutledge'`
 - `git config --global user.email email@address.com`
-
-## Set default text editor to Notepad++
-- `git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"`
 
 ## Generate a new SSH key to authenticate to GitHub
 - https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key
