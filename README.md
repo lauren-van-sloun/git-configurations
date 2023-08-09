@@ -13,28 +13,28 @@ Holds my favorite git configurations so I can more quickly set up a new environm
   
   ```
   [alias]
-  	  a = add
-	  aa = add .
-  	  alias = config --get-regexp ^alias\\.
-	  b = branch
-  	  bd = branch -D
-	  c = commit
-  	  cm = commit -m
-  	  co = checkout
-  	  cob = checkout -b
-  	  cod = checkout develop
-	  com = checkout main
-  	  last = log -1 HEAD
-  	  md = merge develop
-  	  mm = merge main
-  	  outta-here = reset --hard
-  	  pod = pull origin develop
-    	  pom = pull origin main
-  	  remote-commits = rev-list --all --remotes --pretty
-	  s = status
-  	  sa = stash apply
-	  sl = stash list
-	  sp = stash pop
+    a = add
+    aa = add .
+    alias = config --get-regexp ^alias\\.
+    b = branch
+    bd = branch -D
+    c = commit
+    cm = commit -m
+    co = checkout
+    cob = checkout -b
+    cod = checkout develop
+    com = checkout main
+    last = log -1 HEAD
+    md = merge develop
+    mm = merge main
+    outta-here = reset --hard
+    pod = pull origin develop
+    pom = pull origin main
+    remote-commits = rev-list --all --remotes --pretty
+    s = status
+    sa = stash apply
+    sl = stash list
+    sp = stash pop
   ```
 
 ## Set name and email
