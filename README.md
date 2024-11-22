@@ -38,7 +38,7 @@ Holds my favorite git configurations so I can more quickly set up a new environm
   ```
 
 ## Set name and email
-- `git config --global user.name 'Lauren Rutledge'`
+- `git config --global user.name 'Lauren Van Sloun'`
 - `git config --global user.email email@address.com`
 
 ## Generate a new SSH key to authenticate to GitHub
